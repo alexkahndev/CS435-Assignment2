@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 
 def main():
-    sizes = [10, 100, 1000]
+    sizes = [10, 100, 1000, 10000, 100000]
     times = [] 
 
     for n in sizes:
@@ -38,11 +38,11 @@ def main():
         print(f"Elapsed time: [{time_string}]")
         print(f"Validating the matching")
 
-        # assert is_stable(
-        #     men_engaged, men_preferences, women_preferences
-        # ), "Matching is not stable"
+        assert is_stable(
+            men_engaged, men_preferences, women_preferences
+        ), "Matching is not stable"
 
-        # print(f"Matching is stable for n={n}\n")
+        print(f"Matching is stable for n={n}\n")
 
     # After all executions, plot the results
     plt.plot(sizes, times, marker="o")
