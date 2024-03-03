@@ -10,28 +10,28 @@ This project implements the Gale-Shapley algorithm in Python for stable matching
 
 Instructions on how to install the project.
 
-\`\`\`sh
+```sh
 git clone https://github.com/alexkahndev/CS435-Assignment2.git
-\`\`\`
+```
 
 ### Python Installation
 
 Here are the commands to install Python on various devices:
 
 #### Windows
-\`\`\`sh
+```sh
 Start-Process msiexec.exe -Wait -ArgumentList '/I https://www.python.org/ftp/python/3.9.5/python-3.9.5-amd64.exe /passive InstallAllUsers=1 PrependPath=1'
-\`\`\`
+```
 
 #### macOS
-\`\`\`sh
+```sh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" && brew install python
-\`\`\`
+```
 
 #### Linux (Ubuntu)
-\`\`\`sh
+```sh
 sudo apt-get update && sudo apt-get install python3.9
-\`\`\`
+```
 
 Please replace \`3.9.5\` and \`python3.9\` with the version you want to install. These commands will download and install Python directly from the official website or through package managers like Homebrew or APT. Always refer to the official documentation for the most accurate and up-to-date information. After installing Python, you can verify the installation by typing \`python --version\` in the command line. This should display the installed version of Python.
 
@@ -43,9 +43,9 @@ Used matplotlib to graph time data
 
 To run the program run 
 
-\`\`\`sh
+```sh
 python main.py
-\`\`\`
+```
 
 ## Bugs
 
