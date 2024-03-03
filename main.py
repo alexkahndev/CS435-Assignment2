@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 def main():
     sizes = [10, 100, 1000, 10000, 100000]
-    times = [] 
+    times = []
 
     for n in sizes:
         print(f"Running Gale Shapley algorithm for n={n}")
@@ -21,7 +21,7 @@ def main():
         elapsed_time = time() - start_time
 
         # Store the elapsed time
-        times.append(elapsed_time) 
+        times.append(elapsed_time)
 
         # Format the time string based on the elapsed time
         if elapsed_time > 60:

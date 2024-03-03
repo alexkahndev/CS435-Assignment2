@@ -1,5 +1,6 @@
 import random
 
+
 def gale_shapley(men_pref, women_pref):
     # Number of men (or women)
     n = len(men_pref)
